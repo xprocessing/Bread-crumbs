@@ -13,6 +13,7 @@ for (each in GetID) {
       if (this.readyState == 4 && this.status == 200) {
        
         //////执行请求后，输出
+        var SearchNumText = JSON.parse(xhttp.responseText.toString());
         var SearchNumTextdata = SearchNumText.content.data;
         
         for (eachPageName in SearchNumTextdata) {
