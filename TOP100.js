@@ -1,6 +1,6 @@
 //获取TOP100的搜索流量
 var setCateId = "50014808";
-var setDateRange = "2018-03-23|2018-03-23";
+var setDateRange = "2018-03-24|2018-03-24";
 var setRecent = "1";
 var setPageSize = "30";
 var SetKeyword = "4号";
