@@ -1,6 +1,6 @@
 //获取TOP100的搜索流量
 var setCateId = "50006846";
-var setDateRange = "2018-03-20|2018-03-20";
+var setDateRange = "2018-03-21|2018-03-21";
 var setRecent = "1";
 var setPageSize = "30";
 var SetKeyword = "袜子女";
