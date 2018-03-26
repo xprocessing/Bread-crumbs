@@ -1,11 +1,6 @@
 //获取TOP100的搜索流量
-<<<<<<< HEAD
-var setCateId = "50006846";
-var setDateRange = "2018-03-21|2018-03-21";
-=======
 var setCateId = "50014808";
-var setDateRange = "2018-03-24|2018-03-24";
->>>>>>> 4cb916a80d049b7e00cd9c24ff735646e601551d
+var setDateRange = "2018-03-25|2018-03-25";
 var setRecent = "1";
 var setPageSize = "30";
 var SetKeyword = "4号";
