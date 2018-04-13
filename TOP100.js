@@ -1,9 +1,9 @@
 //获取TOP100的搜索流量
-var setCateId = "50014808";
-var setDateRange = "2018-03-25|2018-03-25";
+var setCateId = "50006846";
+var setDateRange = "2018-03-27|2018-03-27";
 var setRecent = "1";
 var setPageSize = "30";
-var SetKeyword = "4号";
+var SetKeyword = "袜子女";
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://sycm.taobao.com/mq/rank/listItems.json?cateId=" + setCateId + "&categoryId=" + setCateId + "&dateRange=" + setDateRange + "&dateRangePre=" + setDateRange + "&dateType=recent" + setRecent + "&dateTypePre=recent" + setRecent + "&device=0&devicePre=0&itemDetailType=1&keyword=" + SetKeyword + "&orderDirection=desc&orderField=payOrdCnt&page=1&pageSize=" + setPageSize + "&rankTabIndex=0&rankType=1&seller=-1&view=rank", true);
 xhr.send();

@@ -112,7 +112,6 @@ https://json-csv.com/
 ///获得物流异常订单
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://healthcenter.taobao.com/home/json/get_affect_order_list.do?pageSize=1000&page=4&_ksTS=1520336693981_79&callback=jsonp80&punishId=10523180484&type=3", true);
 xhr.send();
 
 
