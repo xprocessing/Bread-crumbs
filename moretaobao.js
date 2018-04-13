@@ -112,6 +112,7 @@ https://json-csv.com/
 ///获得物流异常订单
 
 var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://count.taobao.com/counter2?keys=ICVT_7_567520993724&inc=ICVT_7_567520993724&sign=916d0bdf51c06c2ca66c6fca6b692773ff7", true);
 xhr.send();
 
 
