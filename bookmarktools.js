@@ -2,7 +2,7 @@
 
 javascript:void((function(){  
 
-
+  console.time();
  var GetUrl,GetUrlDate,GetUrlCat;
  GetUrl = window.location.href;
 
@@ -58,7 +58,7 @@ javascript:void((function(){
     }
     
 
-
+    console.timeEnd()
 
 })())  
 

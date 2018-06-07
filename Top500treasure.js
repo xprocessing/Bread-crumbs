@@ -29,7 +29,8 @@ console.table(_.zip(GetShopName, GetID, GetItemPrice, GetOrderNum));
 
 
 /////////////////////////////////////////////////////////N词搜索请求数据
-var squery="文胸";
+console.time();
+var squery="袜子";
 var TOP100DATAArray = [];
 
 for (var N = 1; N < 50; N++) {
@@ -91,3 +92,4 @@ for (var i = 0; i < GetItemPrice.length; i++) {
 
   }
   console.log(allMoney);
+  console.timeEnd();
